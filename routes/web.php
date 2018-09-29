@@ -19,6 +19,11 @@ Route::get('/about', function() {
     return view('pages.about');
 });
 
-Route::get('/signup', function() {
-    return view('pages.signup');
+Route::get('/products', function(){
+    return view('pages.product');
 });
+
+Route::get('/login', function(){
+    return view('pages.login');
+});
+
